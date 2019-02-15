@@ -1,0 +1,57 @@
+[{
+	"title": "Assignment on SQL-4",
+	"activityType": "assignment",
+	"questions": [{
+			"questionType": "filesubmission",
+			"questionText": " Write a query to return the ratings data in a more readable format: reviewer name, movie title, stars, and ratingDate. Also, sort the data, first by reviewer name, then by movie title, and lastly by number of stars. ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " List movie titles and average ratings, from highest-rated to lowest-rated. If two or more movies have the same average rating, list them in alphabetical order. ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find the names of all reviewers who have contributed three or more ratings. (As an extra challenge, try writing the query without HAVING or without COUNT.) ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " For each movie, return the title and the 'rating spread', that is, the difference between highest and lowest ratings given to that movie. Sort by rating spread from highest to lowest, then by movie title. ",
+			"points":"5"
+			
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find the movie(s) with the highest average rating. Return the movie title(s) and average rating. (Hint: This query is more difficult to write in SQLite than other systems; you might think of it as finding the highest average rating and then choosing the movie(s) with that average rating.) ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find the movie(s) with the lowest average rating. Return the movie title(s) and average rating. (Hint: This query may be more difficult to write in SQLite than other systems; you might think of it as finding the lowest average rating and then choosing the movie(s) with that average rating.)  ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " For each director, return the director's name together with the title(s) of the movies) they directed that received the highest rating among all of their movies, and the value of that rating. Ignore movies whose director is NULL. ",
+			"points":"5"
+			
+		}
+
+
+		
+
+	]
+}]

@@ -1,0 +1,18 @@
+[{
+	"title":"Alternate Notation",
+	"activityType":"video",
+	"videoURL":"/Alternate Notation.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+
+
+

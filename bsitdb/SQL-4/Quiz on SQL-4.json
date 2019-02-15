@@ -1,0 +1,46 @@
+[{
+	"title": "Quiz on SQL-4",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "filesubmission",
+			"questionText": " Find the titles of all movies directed by Steven Spielberg. ",
+			"points":"5"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all years that have a movie that received a rating of 4 or 5, and sort them in increasing order. ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find the titles of all movies that have no ratings. ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find the difference between the average rating of movies released before 1980 and the average rating of movies released after 1980. (Make sure to calculate the average rating for each movie, then the average of those averages for movies before 1980 and movies after. Don't just calculate the overall average rating before and after 1980.)  ",
+			"points":"5"
+
+		},
+		
+		{
+			"questionType": "filesubmission",
+			"questionText": " Some directors directed more than one movie. For all such directors, return the titles of all movies directed by them, along with the director name. Sort by director name, then movie title. (As an extra challenge, try writing the query both with and without COUNT.) ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Some reviewers didn't provide a date with their rating. Find the names of all reviewers who have ratings with a NULL value for the date. ",
+			"points":"5"
+			
+		}
+
+	]
+}]

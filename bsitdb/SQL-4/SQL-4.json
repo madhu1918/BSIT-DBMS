@@ -1,0 +1,19 @@
+[{
+	"title":"SQL-4",
+	"activityType":"video",
+	"videoURL":"/.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+
+
+
+

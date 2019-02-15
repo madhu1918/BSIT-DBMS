@@ -1,0 +1,19 @@
+[{
+	"title":" Shortcomings of BCNF and 4NF",
+	"activityType":"video",
+	"videoURL":"/ Shortcomings of BCNF and 4NF.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+
+
+
+

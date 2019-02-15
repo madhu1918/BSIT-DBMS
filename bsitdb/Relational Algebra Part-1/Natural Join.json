@@ -1,0 +1,19 @@
+[{
+	"title":"Natural Join",
+	"activityType":"video",
+	"videoURL":"/Natural Join.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+
+
+
+

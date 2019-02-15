@@ -1,0 +1,19 @@
+[{
+	"title":"Cross product or Cartesian product",
+	"activityType":"video",
+	"videoURL":"/Cross product or Cartesian product.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+
+
+
+

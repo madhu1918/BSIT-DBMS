@@ -1,0 +1,32 @@
+[{
+	"title": "Quiz on Functional Dependencies-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider a relation R(A,B,C,D) with functional dependencies A,B  →  C and C,D  →  E. Suppose there are at most 3 different values for each of A, B, and D. What's the maximum number of different values for E? ",
+			"points":"1",
+			"options": [{
+					"option": "27",
+					"correct": "True"
+				},
+
+				{
+					"option": "9",
+					"correct": "False"
+				},
+
+				{
+					"option": "3",
+					"correct": "False"
+				},
+
+				{
+					"option": "81",
+					"correct": "False"
+				}
+
+			]
+		}
+
+	]
+}]

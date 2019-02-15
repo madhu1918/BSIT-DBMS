@@ -1,0 +1,33 @@
+[{
+	"title": "Quiz on Select Operator",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText":[{"text":"<code>Statement A: It can be useful to compose two selection operators.</code> <br> For example:"},{"image":{"imageSRC":"select.png", "imageName":""}},{"text":"<code>Statement B: It can be useful to compose two projection operators.</code> <br> For example:"},{"image":{"imageSRC":"select1.png", "imageName":""}}],
+			"points":"1",
+			"options": [{
+					"option": "Both statements are true.",
+					"correct": "False"
+				},
+
+				{
+					"option": "Statement A is true but Statement B is false.",
+					"correct": "False"
+				},
+
+				{
+					"option": "Statement A is true but Statement B is false.",
+					"correct": "False"
+				},
+
+				{
+					"option": "Both statements are false.",
+					"correct": "True"
+				}
+
+			]
+		}
+
+		
+	]
+}]

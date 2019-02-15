@@ -1,0 +1,49 @@
+[{
+	"title": "Assignment on SQL-1",
+	"activityType": "assignment",
+	"questions": [{
+			"questionType": "filesubmission",
+			"questionText": " Find name of the colleges whose enrollments are greater than 20000 ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all the details of a students in descending order of GPA ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all sID’s who are applied for ‘Stanford’ but not ‘Berkeley’ using except operator. ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all sID’s who are applied for ‘Stanford’ and ‘Berkeley’ using intersect operator. ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all students Who applied for ‘CS’ in ‘Berkeley’ ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all cNames located in ‘CA’ ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all the students who are applied for ‘Stanford’ ",
+			"points":"3"
+		}
+
+	
+
+	]
+}]

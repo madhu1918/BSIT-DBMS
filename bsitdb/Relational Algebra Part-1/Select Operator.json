@@ -1,0 +1,19 @@
+[{
+	"title":"Select Operator",
+	"activityType":"video",
+	"videoURL":"/Select Operator.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}
+]
+
+
+

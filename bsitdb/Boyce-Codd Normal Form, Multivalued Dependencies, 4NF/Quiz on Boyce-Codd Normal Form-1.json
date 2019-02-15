@@ -1,0 +1,22 @@
+[{
+	"title": "Quiz on Boyce-Codd Normal Form-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " For the relation Apply(SSN,cName,state,date,major), suppose college names are unique and students may apply to each college only once, so we have two FDs: cName  →  state and SSN,cName  →  date,major. Is Apply in BCNF? ",
+			"points":"1",
+			"options": [{
+					"option": "Yes",
+					"correct": "False"
+				},
+
+				{
+					"option": "No",
+					"correct": "True"
+				}
+
+			]
+		}
+
+	]
+}]

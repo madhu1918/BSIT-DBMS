@@ -1,0 +1,30 @@
+[{
+	"title": "Quiz on SQL-3",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "filesubmission",
+			"questionText": " Insert a new entry into college table with following data<br>cName = Harvard, state = Cambridge, enrollment = 15000 ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Update enrollment of Stanford to 17500 ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find states of all colleges that have applied by ‘Amy’ ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Delete the apply entries where major is history ",
+			"points":"3"
+		}
+	
+
+	]
+}]

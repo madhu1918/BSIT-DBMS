@@ -1,0 +1,32 @@
+[{
+	"title": "Quiz on Functional Dependencies-4",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider the relation R(A,B,C,D,E) and the set of functional dependencies S1 = {AB  →  C, AE  →  D, D  →  B}. Which of the following sets S2 of FDs does NOT follow from S1? ",
+			"points":"1",
+			"options": [{
+					"option": "S2 = {AD  →  C}",
+					"correct": "False"
+				},
+
+				{
+					"option": "S2 = {AD  →  C, AE  →  B}",
+					"correct": "False"
+				},
+
+				{
+					"option": "S2 = {ABC  →  D, D  →  B}",
+					"correct": "True"
+				},
+
+				{
+					"option": "S2 = {ADE  →  BC}",
+					"correct": "False"
+				}
+
+			]
+		}
+
+	]
+}]

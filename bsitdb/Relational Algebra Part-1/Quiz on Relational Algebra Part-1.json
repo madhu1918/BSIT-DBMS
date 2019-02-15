@@ -1,0 +1,129 @@
+[{
+	"title": "Quiz on Relational Algebra Part-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Suppose relation R(A,C) and relation S(B,C,D) has the following tuples:<br> <table><tr> <th>A</th><th>C</th></tr><tr><td>3</td><td>3</td></tr><tr><td>6</td><td>4</td></tr><tr><td>2</td><td>3</td></tr><tr><td>3</td><td>5</td></tr><tr><td>7</td><td>1</td></tr></table>  <br> and relation S(B,C,D) has the following tuples:<br> <table><tr><th>B</th><th>C</th><th>D</th></tr><tr><td>5</td><td>1</td><td>6</td></tr><tr><td>1</td><td>5</td><td>8</td></tr><tr><td>4</td><td>3</td><td>9</td></tr></table> <br> Compute the natural join of R and S. Which of the following tuples is in the result? Assume each tuple has schema (A,B,C,D). ",
+			"points":"1",
+			"options": [{
+					"option": "(2, 4, 3, 9)",
+					"correct": "True"
+				},
+
+				{
+					"option": "(2, 3, 1, 6)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(3, 5, 1, 6)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(6, 4, 3, 9)",
+					"correct": "False"
+				}
+
+
+			]
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": "Suppose relation R(A,B) has the following tuples:<br> <table><tr><th>A</th> <th>B</th></tr><tr><td>1</td><td>a</td></tr><tr><td>7</td><td>t</td></tr><tr><td>2</td><td>g</td></tr><tr><td>4</td> <td>c</td></tr><tr> <td>9</td><td>t</td></tr> </table>  <br> and relation S(B,C,D) has the following tuples:<tr><th>B</th><th>C</th><th>D</th></tr><tr><td>c</td><td>5</td><td>6</td></tr><tr><td>a</td><td>7</td><td>8</td></tr><tr><td>t</td><td>8</td> <td>9</td></tr></table> <br> Compute the theta-join of R and S with the condition R.B = S.B AND R.A < S.C Which of the following tuples is in the result? Assume each tuple has schema (A, R.B, S.B, C, D). ",
+			"points":"1",
+			"options": [{
+					"option": "(1, a, c, 5, 6)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(2, g, c, 5, 6)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(9, t, t, 8, 9)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(7, t, t, 8, 9)",
+					"correct": "True"
+				}
+
+
+			]
+		},
+
+
+		{
+			"questionType": "mcq",
+			"questionText": "Consider a relation R(A,B) with r tuples, all unique within R, and a relation S(B,C) with s tuples, all unique within S. Let t represent the number of tuples in R natural-join S. Which of the following triples of values (r,s,t) is possible? ",
+			"points":"1",
+			"options": [{
+					"option": "(2,3,6)",
+					"correct": "True"
+				},
+
+				{
+					"option": "(5,10,250)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(5,10,500)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(2,3,8)",
+					"correct": "False"
+				}
+
+
+			]
+		},
+
+
+		{
+			"questionType": "mcq",
+			"questionText": "Suppose relation R(A,B) and relation S(B,C,D) has the following tuples:<br> <table><tr><th>A</th> <th>B</th></tr><tr> <td>1</td><td>2</td> </tr><tr> <td>3</td>   <td>4</td></tr><tr>   <td>5</td>   <td>6</td> </tr></table>  <br> and relation S(B,C,D) has the following tuples: <tr>   <th>B</th>   <th>C</th>   <th>D</th> </tr> <tr>   <td>2</td>   <td>4</td>   <td>6</td> </tr> <tr>   <td>4</td>   <td>6</td>   <td>8</td> </tr> <tr>   <td>4</td>   <td>7</td>    <td>9</td> </tr></table> <br> Compute the natural join of R and S. Which of the following tuples is in the result? Assume each tuple has schema (A,B,C,D). ",
+			"points":"1",
+			"options": [{
+					"option": "(5, 6, 4, 6)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(1, 2, 4, 8)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(1, 2, 4, 6)",
+					"correct": "True"
+				},
+
+				{
+					"option": "(5, 6, 7, 8)",
+					"correct": "False"
+				}
+
+
+			]
+		}
+
+
+
+		
+
+
+		
+
+
+
+		
+	]
+}]

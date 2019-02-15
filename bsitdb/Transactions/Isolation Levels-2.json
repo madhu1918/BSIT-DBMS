@@ -1,0 +1,19 @@
+[{
+	"title":"Isolation Levels-2",
+	"activityType":"video",
+	"videoURL":"/Isolation Levels-2.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+
+
+
+

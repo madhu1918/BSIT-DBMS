@@ -1,0 +1,32 @@
+[{
+	"title": "Quiz on Relational Design Overview-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider a database containing information about courses taken by students. Students have a unique student ID and (possibly not unique) name; courses have a unique course number and (possibly not unique) title; students take a course in a given year and receive a grade. Which of the following schemas would you recommend? ",
+			"points":"1",
+			"options": [{
+					"option": "Took(sID, name, courseNum, title, year, grade)",
+					"correct": "False"
+				},
+
+				{
+					"option": "Course(courseNum, title, year), Took(sID, courseNum, grade)",
+					"correct": "False"
+				},
+
+				{
+					"option": "Student(sID, name), Course(courseNum, title), Took(sID, courseNum, year, grade)",
+					"correct": "True"
+				},
+
+				{
+					"option": "Student(sID, name), Course(courseNum, title), Took(name, title, year, grade)",
+					"correct": "False"
+				}
+
+			]
+		}
+
+	]
+}]

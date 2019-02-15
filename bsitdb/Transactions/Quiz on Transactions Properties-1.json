@@ -1,0 +1,33 @@
+[{
+	"title": "Quiz on Transactions Properties-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Suppose client C1 issues transactions T1;T2 and client C2 concurrently issues transactions T3;T4. How many different \"equivalent sequential orders\" are there for these four transactions? ",
+			"points":"1",
+			
+			"options": [{
+					"option": "2",
+					"correct": "False"
+				},
+
+				{
+					"option": "4",
+					"correct": "False"
+				},
+
+				{
+					"option": "6",
+					"correct": "True"
+				},
+
+				{
+					"option": "24",
+					"correct": "False"
+				}
+
+			]
+		}
+
+	]
+}]

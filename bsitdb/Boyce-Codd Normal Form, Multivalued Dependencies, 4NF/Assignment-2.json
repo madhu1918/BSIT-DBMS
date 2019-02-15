@@ -1,0 +1,174 @@
+[{
+	"title": "Assignment-2",
+	"activityType": "assignment",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": "  Consider relation R(A,B,C,D,E) with multivalued dependencies: <br>  A ->-> B, B ->-> D  <br>  and no functional dependencies. Suppose we decompose R into 4th Normal Form. Depending on the order in which we deal with 4NF violations, we can get different final decompositions. Which one of the following relation schemas could be in the final 4NF decomposition? ",
+			"points":"3",
+			"options": [{
+					"option": "AE",
+					"correct": "False"
+				},
+
+				{
+					"option": "AB",
+					"correct": "True"
+				},
+
+				{
+					"option": "BCE",
+					"correct": "False"
+				},
+
+				{
+					"option": "AC",
+					"correct": "False"
+				}
+
+			],
+			"feedback":"Since there are no functional dependencies, the only key for the original R and any decomposed relations is the set of all attributes. Thus, if there are any nontrivial MVDs for a relation at any stage in the decomposition, the left side isn't a key so the relation must be further decomposed.Suppose we start with violating MVD A ->-> B. We get AB and ACDE as a decomposition. A ->-> B is trivial in AB, so AB is in 4NF. However, ACDE has MVD A ->-> D, which follows by transitivity from the given MVDs. We therefore decompose ACDE into AD and ACE. These have no nontrivial MVDs, so {AB,AD,ACE} is one possible 4NF decomposition.We could also start from ABCDE with violating MVD B ->-> D. We get BD and ABCE as a decomposition. B ->-> D is trivial in BD, so BD is in 4NF. However, ABCE has violating MVD A ->-> B. We therefore decompose ABCE into AB and ACE. These have no nontrivial MVDs, so another decomposition is {BD,AB,ACE}.Finally, we could start from ABCDE with violating MVD A ->-> D, which follows by transitivity from the given MVDs. This process results in the same decomposition we got the first time: {AB,AD,ACE}."
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Let R(A,B,C,D,E) be a relation in Boyce-Codd Normal Form (BCNF). Suppose ABC is the only key for R. Which of the following functional dependencies is guaranteed to hold for R? ",
+			"points":"3",
+			"options": [{
+					"option": "BCE  →  D",
+					"correct": "False"
+				},
+
+				{
+					"option": "BCDE  →  A",
+					"correct": "False"
+				},
+
+				{
+					"option": "ABE  →  D",
+					"correct": "False"
+				},
+
+				{
+					"option": "ABC  →  E",
+					"correct": "True"
+				}
+
+			],
+			"feedback":"Since ABC is a key, by definition ABC  →  D and ABC  →  E. Furthermore, since R is in BCNF, all nontrivial FDs must include ABC on the left side. Thus, the only FDs guaranteed to hold are ABC  →  D and ABC  →  E, and the two FDs implied by them: ABCE  →  D and ABCD  →  E."
+
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Consider a relation R(A,B,C,D). For which of the following sets of FDs is R in Boyce-Codd Normal Form (BCNF)? ",
+			"points":"3",
+			"options": [{
+					"option": "C  →  B, BC  →  A, A  →  C, BD  →  A",
+					"correct": "False"
+				},
+
+				{
+					"option": "BC  →  A, AD  →  C, CD  →  B, BD  →  C",
+					"correct": "False"
+				},
+
+				{
+					"option": "C  →  D, CD  →  A, AB  →  C, BD  →  A",
+					"correct": "False"
+				},
+
+				{
+					"option": "AC  →  D, D  →  A, D  →  C, D  →  B",
+					"correct": "True"
+				}
+
+			],
+			"feedback":"A relation is in BCNF if for every nontrivial FD, the left-side attributes contain a key. To test whether a set of attributes S contains a key, compute the closure of the attributes in S using all of the FDs. If the closure is all attributes of the relation, then the attributes contain a key; otherwise not. You need to go through this process for each of the given FDs to determine if the relation is in BCNF."
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Consider relation R(A,B,C,D) with functional dependencies: <br>A  →  B, C  →  D, AD  →  C, BC  →  ASuppose we decompose R into Boyce-Codd Normal Form (BCNF). Which of the following schemas could not be in the result of the decomposition? ",
+			"points":"3",
+			"options": [{
+					"option": "ABD",
+					"correct": "True"
+				},
+
+				{
+					"option": "CD",
+					"correct": "False"
+				},
+
+				{
+					"option": "AC",
+					"correct": "False"
+				},
+
+				{
+					"option": "AB",
+					"correct": "False"
+				}
+
+			],
+			"feedback":"A schema is in BCNF if every FD contains a key on its left side. Using the closure method on subsets of attributes, we see that the minimal keys for R are AC, AD, and BC.(To test whether a set of attributes S is a key, compute the closure of the attributes in S using all of the FDs. If the closure is all attributes of the relation, then the attributes in S are a key; otherwise not.)All of the correct answers -- schemas that could not be part of the decomposition -- have an FD whose left side does not contain one of these keys. All of the incorrect answers -- schemas that could be part of the decomposition -- result from one or two steps of the decomposition algorithm using the given FDs. Furthermore, these schemas all have two attributes. If a two-attribute relation has a nontrivial FD, then by definition the left side is a key. Thus, all two-attribute relations are in BCNF."
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Consider a relation R(A,B,C,D,E). For which of the following sets of FDs is R in Boyce-Codd Normal Form (BCNF)? ",
+			"points":"3",
+			"options": [{
+					"option": "ACD  →  E, AE  →  C, CE  →  B, A  →  D",
+					"correct": "False"
+				},
+
+				{
+					"option": "BDE  →  A, AC  →  E, B  →  C, DE  →  A",
+					"correct": "False"
+				},
+
+				{
+					"option": "BCD  →  E, BDE  →  C, BE  →  D, BE  →  A",
+					"correct": "True"
+				},
+
+				{
+					"option": "ABD  →  C, ACD  →  E, ACE  →  B, BC  →  E",
+					"correct": "False"
+				}
+
+			],
+			"feedback":"A relation is in BCNF if for every nontrivial FD, the left-side attributes contain a key. To test whether a set of attributes S contains a key, compute the closure of the attributes in S using all of the FDs. If the closure is all attributes of the relation, then the attributes contain a key; otherwise not. You need to go through this process for each of the given FDs to determine if the relation is in BCNF."
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Consider relation R(A,B,C,D) with functional and multivalued dependencies:  <br>  A  →  B, C  →  D, B  ↠  C  <br>  Suppose we decompose R into 4th Normal Form. Depending on the order in which we deal with 4NF violations, we can get different final decompositions. Which one of the following relation schemas could be in the final 4NF decomposition? ",
+			"points":"3",
+			"options": [{
+					"option": "BD",
+					"correct": "True"
+				},
+
+				{
+					"option": "ABCD",
+					"correct": "False"
+				},
+
+				{
+					"option": "ACD",
+					"correct": "False"
+				},
+
+				{
+					"option": "BCD",
+					"correct": "False"
+				}
+
+			],
+			"feedback":"From the FDs we see that AC is the one minimal key. Thus, each dependency is a 4NF violation. Furthermore, since every FD is also an MVD, by transitivity of MVDs we can infer A ->-> C, A ->-> D, and B ->-> D. Depending which violating dependency we pick first in the decomposition algorithm, every two-attribute relation can be one of the schemas in the decomposition. Furthermore, every three-attribute relation (and R itself) has at least one 4NF violation, so it cannot be in the final decomposition."
+		}
+
+	]
+}]

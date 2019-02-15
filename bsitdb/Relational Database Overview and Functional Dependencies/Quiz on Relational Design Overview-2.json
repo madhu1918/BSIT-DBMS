@@ -1,0 +1,49 @@
+[{
+	"title": "Quiz on Relational Design Overview-2",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider the relation Took(sID, name, courseNum, title). Students have a unique student ID and (possibly not unique) name; courses have a unique course number and (possibly not unique) title. Each tuple in the relation encodes the fact that the given student took the given course. What are all of the functional dependencies for relation Took? ",
+			"points":"1",
+			"options": [{
+					"option": "sID  →  courseNum",
+					"correct": "False"
+				},
+
+				{
+					"option": "sID  →  name, courseNum  →  title",
+					"correct": "True"
+				},
+
+				{
+					"option": "name  →  sID, title  →  courseNum",
+					"correct": "False"
+				},
+
+				{
+					"option": "courseNum  →  sID",
+					"correct": "False"
+				}
+
+			]
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Consider the relation Took(sID, name, courseNum, title) with functional dependencies sID → name and courseNum → title. Is Took in Boyce-Codd Normal Form? ",
+			"points":"1",
+			"options": [{
+					"option": "Yes",
+					"correct": "False"
+				},
+
+				{
+					"option": "No",
+					"correct": "True"
+				}
+
+			]
+		}
+
+	]
+}]

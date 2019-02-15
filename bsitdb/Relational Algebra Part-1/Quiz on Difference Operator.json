@@ -1,0 +1,60 @@
+[{
+	"title": "Quiz on Difference Operator",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Three of the following four expressions finds the names of all students who did not apply to major in CS or EE. Which one finds something different? (Hint: You should not assume student names are unique.) ",
+			"points":"1",
+			"options": [{
+					"option": [{"image":{"imageSRC":"Difference2.png", "imageName":""}}],
+					"correct": "False"
+				},
+
+				{
+					"option":[{"image":{"imageSRC":"Difference3.png", "imageName":""}}],
+					"correct": "False"
+				},
+
+				{
+					"option":[{"image":{"imageSRC":"Difference4.png", "imageName":""}}],
+					"correct": "False"
+				},
+
+				{
+					"option":[{"image":{"imageSRC":"Difference5.png", "imageName":""}}],
+					"correct": "True"
+				}
+
+			]
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText":[{"text":"Which of the following English sentences describes the result of this expression:"},{"image":{"imageSRC":"Difference1.png", "imageName":""}}],
+			"points":"1",
+			"options": [{
+					"option": " All colleges with no GPA>3.5 applicants who applied for a CS major at that college ",
+					"correct": "False"
+				},
+
+				{
+					"option": " All colleges with no GPA>3.5 applicants who applied for a CS major at any college ",
+					"correct": "True"
+				},
+
+				{
+					"option": " All colleges where all applicants either have GPA>3.5 or applied for a CS major at that college ",
+					"correct": "False"
+				},
+
+				{
+					"option": " All colleges where no applicants have GPA>3.5 or no applicants applied for a CS major at that college ",
+					"correct": "False"
+				}
+
+			]
+		}
+
+		
+	]
+}]

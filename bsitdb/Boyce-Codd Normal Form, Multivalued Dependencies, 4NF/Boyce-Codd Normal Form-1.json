@@ -1,0 +1,19 @@
+[{
+	"title":"Boyce-Codd Normal Form-1",
+	"activityType":"video",
+	"videoURL":"/Boyce-Codd Normal Form-1.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+
+
+
+

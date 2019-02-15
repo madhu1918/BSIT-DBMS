@@ -1,0 +1,19 @@
+[{
+	"title":"Introduction to SQL",
+	"activityType":"video",
+	"videoURL":"/Introduction to SQL.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}
+]
+
+
+

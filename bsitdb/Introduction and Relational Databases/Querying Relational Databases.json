@@ -1,0 +1,19 @@
+[{
+	"title":"Querying Relational Databases",
+	"activityType":"video",
+	"videoURL":"/Querying Relational Databases.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+
+
+
+

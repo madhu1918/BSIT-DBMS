@@ -1,0 +1,19 @@
+[{
+	"title":"Difference Operator",
+	"activityType":"video",
+	"videoURL":"/Difference Operator.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+
+
+
+

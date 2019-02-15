@@ -1,0 +1,34 @@
+[{
+	"title": "Assignment-3",
+	"activityType": "assignment",
+	"quizDescription":"Consider table Person(name,age) and the following transaction<br><code> T: Begin Transaction;<br> Q1: Select Avg(age) From Person;<br>  <read-only activity><br>  Q2: Select Avg(age) From Person;<br>  Commit;</code><br>Assume queries Q1 and Q2 always execute atomically. ",
+	"questions": [{
+			"questionType": "filesubmission",
+			"questionText": " Suppose all other transactions in the system are declared as Serializable and Read-Only. What is the weakest isolation level needed for transaction T to ensure that queries Q1 and Q2 will always get the same result? Choices are: Read-Uncommitted, Read-Committed, Repeatable-Read, Serializable ",
+			"points":"1"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Suppose all other transactions in the system are declared as Serializable, and they only involve queries, updates, and deletions. What is the weakest isolation level needed for transaction T to ensure that queries Q1 and Q2 will always get the same result? Choices are: Read-Uncommitted, Read-Committed, Repeatable-Read, Serializable ",
+			"points":"1"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Suppose all other transactions in the system are declared as Serializable, and we know nothing else about them. What is the weakest isolation level needed for transaction T to ensure that queries Q1 and Q2 will always get the same result? Choices are: Read-Uncommitted, Read-Committed, Repeatable-Read, Serializable ",
+			"points":"1"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Now consider the following variation, where the two queries are in two different transactions: <br> <code>T1: <br>  Begin Transaction;<br>  Q1: Select Avg(age) From Person;<br>  <read-only activity><br>  Commit;<br>T2:<br>  Begin Transaction;<br>  Q2: Select Avg(age) From Person;<br>  <read-only activity><br>  Commit; </code><br>Suppose both transactions T1 and T2 execute with isolation level Serializable. Consider scenarios (a), (b), and (c) above for all other transactions in the system. For which of these scenarios, if any, are we guaranteed to always get the same result for Q1 and Q2? ",
+			"points":"1"
+			
+		}
+
+	]
+}]

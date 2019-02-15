@@ -1,0 +1,57 @@
+[{
+	"title": "Assignment on SQL-5",
+	"activityType": "assignment",
+	"questions": [{
+			"questionType": "filesubmission",
+			"questionText": " For each rating that is the lowest (fewest stars) currently in the database, return the reviewer name, movie title, and number of stars. ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Add the reviewer Roger Ebert to your database, with an rID of 209. ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Insert 5-star ratings by James Cameron for all movies in the database. Leave the review date as NULL.  ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " For all movies that have an average rating of 4 stars or higher, add 25 to the release year. (Update the existing tuples; don't insert new tuples.) ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Remove all ratings where the movie's year is before 1970 or after 2000, and the rating is fewer than 4 stars. ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " For all cases where the same reviewer rated the same movie twice and gave it a higher rating the second time, return the reviewer's name and the title of the movie.   ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " For each movie that has at least one rating, find the highest number of stars that movie received. Return the movie title and number of stars. Sort by movie title. ",
+			"points":"5"
+			
+		}
+
+
+		
+
+	]
+}]

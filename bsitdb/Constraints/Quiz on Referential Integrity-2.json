@@ -1,0 +1,34 @@
+[{
+	"title": "Quiz on Referential Integrity-2",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider tables Dorm(name,address) and Student(name,dormName,roommateName) with referential integrity constraints: (1) Student.dormName to Dorm.name; (2) Dorm.name to Student.dormName; (3) Student.roommateName to Student.name. Which of the following modifications can NOT cause a referential integrity violation? ",
+			"points":"1",
+			
+			"options": [{
+					"option": "insertion into Student",
+					"correct": "False"
+				},
+
+				{
+					"option": "deletion from Student",
+					"correct": "False"
+				},
+
+				{
+					"option": "update Student.roommateName",
+					"correct": "False"
+				},
+
+				{
+					"option": "All of them can cause violations",
+					"correct": "True"
+				}
+
+			],
+			"feedback":"Inserting a student can violate (1) and/or (3). Deleting a student can violate (2) and/or (3). Updating roommateName can violate (3)."
+		}
+
+	]
+}]

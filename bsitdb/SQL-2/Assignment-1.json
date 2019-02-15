@@ -1,0 +1,49 @@
+[{
+	"title": "Assignment-1",
+	"activityType": "assignment",
+	"questions": [{
+			"questionType": "filesubmission",
+			"questionText": " Find the name of college with maximum enrollments. ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find the Average GPA of students who applied for ‘CS’ in ‘Stanford’ ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find number of students applied to ‘history’ major ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find name of the student who has minimum GPA among the students who applied for ‘MIT’ ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all the students who are applied for ‘Stanford’ and ‘MIT’ and whose GPA is greater than 3 ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " FInd sum of all the enrollments for all colleges ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find details of the student whose GPA is null ",
+			"points":"3"
+		}
+
+	
+
+	]
+}]

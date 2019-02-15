@@ -1,0 +1,32 @@
+[{
+	"title": "Quiz on Materialized Views-2",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider tables R(A,B) and S(B,C) and a query Q = select A,C from R,S where R.B=S.B and A < 10 and C > 20. Which of the following materialzed views can NOT be used to help evaluate Q? ",
+			"points":"1",
+
+			"options": [{
+					"option": "V1 = select A,C from R,S where R.B=S.B",
+					"correct": "False"
+				},
+
+				{
+					"option": "V2 = select A,C from R,S where A < 10 and C > 20",
+					"correct": "True"
+				},
+
+				{
+					"option": "V3 = select A,R.B,S.B,C from R,S where A < 10 and C > 20",
+					"correct": "False"
+				},
+
+				{
+					"option": "V4 = select * from R where A < 10",
+					"correct": "False"
+				}
+
+			]
+		}
+	]
+}]

@@ -1,0 +1,15 @@
+[{
+	"title":"Constraints-1",
+	"activityType":"video",
+	"videoURL":"/Constraints-1.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]

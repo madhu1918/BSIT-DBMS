@@ -1,0 +1,19 @@
+[{
+	"title":"Rename Operator",
+	"activityType":"video",
+	"videoURL":"/Rename Operator.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+
+
+
+

@@ -1,0 +1,32 @@
+[{
+	"title": "Quiz on Functional Dependencies-2",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " For the relation Apply(SSN,cName,state,date,major), what real-world constraint is captured by SSN,cName  →  date? ",
+			"points":"1",
+			"options": [{
+					"option": "A student can only apply to one college.",
+					"correct": "False"
+				},
+
+				{
+					"option": "A student can apply to each college only once.",
+					"correct": "False"
+				},
+
+				{
+					"option": "A student must apply to all colleges on the same date.",
+					"correct": "False"
+				},
+
+				{
+					"option": "Every application from a student to a specific college must be on the same date.",
+					"correct": "True"
+				}
+
+			]
+		}
+
+	]
+}]

@@ -1,0 +1,223 @@
+[{
+	"title": "Assignment on Functional Dependencies",
+	"activityType": "assignment",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider relation R(A,B,C,D,E) with functional dependencies: <br>AB  →  C, C  →  D, BD  →  E <br> Which of the following sets of attributes does not functionally determine E? ",
+			"points":"3",
+			"options": [{
+					"option": "AB",
+					"correct": "False"
+				},
+
+				{
+					"option": "BC",
+					"correct": "False"
+				},
+
+				{
+					"option": "ACD",
+					"correct": "True"
+				},
+
+				{
+					"option": "BE",
+					"correct": "False"
+				}
+
+			]
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Consider relation R(A,B,C,D,E) with functional dependencies: <br> D  →  C, CE  →  A, D  →  A, AE  →  D <br> Which of the following is a key? ",
+			"points":"3",
+			"options": [{
+					"option": "AD",
+					"correct": "False"
+				},
+
+				{
+					"option": "ABE",
+					"correct": "True"
+				},
+
+				{
+					"option": "BD",
+					"correct": "False"
+				},
+
+				{
+					"option": "A",
+					"correct": "False"
+				}
+
+			]
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Let relation R(A,B,C,D,E,F,G,H) satisfy the following functional dependencies: <br>A  →  B, CH  →  A, B  →  E, BD  →  C, EG  →  H, DE  →  F <br> Which of the following FDs is also guaranteed to be satisfied by R? ",
+			"points":"3",
+			"options": [{
+					"option": "BFG  →  AE",
+					"correct": "False"
+				},
+
+				{
+					"option": "BDG  →  AE",
+					"correct": "True"
+				},
+
+				{
+					"option": "ACG  →  DH",
+					"correct": "False"
+				},
+
+				{
+					"option": "BCD  →  FH",
+					"correct": "False"
+				}
+
+			]
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Consider relation R(A,B,C,D,E,F) with functional dependencies: <br> CDE  →  B, ACD  →  F, BEF  →  C, B  →  D <br> Which of the following is a key? ",
+			"points":"3",
+			"options": [{
+					"option": "CD",
+					"correct": "False"
+				},
+
+				{
+					"option": "BDF",
+					"correct": "False"
+				},
+
+				{
+					"option": "ABDF",
+					"correct": "False"
+				},
+
+				{
+					"option": "ABCE",
+					"correct": "True"
+				}
+
+			]
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Consider relation R(A,B,C,D,E,F,G) with functional dependencies:  <br> AB  →  C, CD  →  E, EF  →  G, FG  →  E, DE  →  C, and BC  →  A  <br> Which of the following is a key? ",
+			"points":"3",
+			"options": [{
+					"option": "BCDE",
+					"correct": "False"
+				},
+
+				{
+					"option": "BDEG",
+					"correct": "False"
+				},
+
+				{
+					"option": "BCDF",
+					"correct": "True"
+				},
+
+				{
+					"option": "BDF",
+					"correct": "False"
+				}
+
+			]
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Let relation R(A,B,C,D,E) satisfy the following functional dependencies:  <br>AB  →  C, BC  →  D, CD  →  E, DE  →  A, AE  →  B  <br> Which of the following FDs is also guaranteed to be satisfied by R? ",
+			"points":"3",
+			"options": [{
+					"option": "BD  →  E",
+					"correct": "False"
+				},
+
+				{
+					"option": "BC  →  A",
+					"correct": "True"
+				},
+
+				{
+					"option": "B  →  A",
+					"correct": "False"
+				},
+
+				{
+					"option": "CE  →  A",
+					"correct": "False"
+				}
+
+			]
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Let relation R(A,B,C,D) satisfy the following functional dependencies: <br>A  →  B, B  →  C, C  →  A <br>Call this set S1. A different set S2 of functional dependencies is equivalent to S1 if exactly the same FDs follow from S1 and S2. Which of the following sets of FDs is equivalent to the set above? ",
+			"points":"3",
+			"options": [{
+					"option": "A  →  BC, B  →  AC, C  →  AB",
+					"correct": "True"
+				},
+
+				{
+					"option": "B  →  AC, C  →  AB",
+					"correct": "False"
+				},
+
+				{
+					"option": "A  →  BC, C  →  AB",
+					"correct": "False"
+				},
+
+				{
+					"option": "A  →  B, B  →  C, C  →  B",
+					"correct": "False"
+				}
+
+			]
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Suppose relation R(A,B,C) currently has only the tuple (0,0,0), and it must always satisfy the functional dependencies A  →  B and B  →  C. Which of the following tuples may be inserted into R legally? ",
+			"points":"3",
+			"options": [{
+					"option": "(0,1,1)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(1,2,0)",
+					"correct": "True"
+				},
+
+				{
+					"option": "(2,0,1)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(1,0,2)",
+					"correct": "False"
+				}
+
+			]
+		}
+
+
+
+	]
+}]

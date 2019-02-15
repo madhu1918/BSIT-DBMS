@@ -1,0 +1,19 @@
+[{
+	"title":"Motivation and Overview",
+	"activityType":"video",
+	"videoURL":"/Motivation and Overview.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+
+
+
+

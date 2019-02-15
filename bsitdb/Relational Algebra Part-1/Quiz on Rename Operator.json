@@ -1,0 +1,60 @@
+[{
+	"title": "Quiz on Rename Operator",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText":[{"text":"Suppose relation Student has 20 tuples. What is the minimum and maximum number of tuples in the result of this expression:"},{"image":{"imageSRC":"Rename.png", "imageName":""}}],
+			"points":"1",
+			"options": [{
+					"option": " minimum = 0, maximum = 400 ",
+					"correct": "False"
+				},
+
+				{
+					"option": " minimum = 20, maximum = 20 ",
+					"correct": "False"
+				},
+
+				{
+					"option": " minimum = 20, maximum = 400 ",
+					"correct": "True"
+				},
+
+				{
+					"option": " A4: minimum = 40, maximum = 40 ",
+					"correct": "False"
+				}
+
+			]
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText":[{"text":"Suppose relations College, Student, and Apply have 5, 20, and 50 tuples in them respectively. Remember that cName is a key for College. Do not assume sName is a key for Student. Do assume that college names in Apply also appear in College. What is the minimum and maximum number of tuples in the result of this expression:"},{"image":{"imageSRC":"Rename1.png", "imageName":""}}],
+			"points":"1",
+			"options": [{
+					"option": " minimum = 5, maximum = 25 correct ",
+					"correct": "True"
+				},
+
+				{
+					"option": " minimum = 5, maximum = 75 ",
+					"correct": "False"
+				},
+
+				{
+					"option": " minimum = 25, maximum = 45 ",
+					"correct": "False"
+				},
+
+				{
+					"option": " minimum = 75, maximum = 75 ",
+					"correct": "False"
+				}
+
+			]
+		}
+
+		
+	]
+}]

@@ -1,0 +1,16 @@
+[{
+	"title":"Indexes-1",
+	"activityType":"video",
+	"videoURL":"/Indexes-1.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+ 

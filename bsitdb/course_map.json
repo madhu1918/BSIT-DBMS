@@ -1,0 +1,319 @@
+{
+		"title" : "Data Base Management System",
+		"overview":["A database is an organized collection of data. A relational database, more restrictively, is a collection of schemas, tables, queries, reports, views, and other elements. Database designers typically organize the data to model aspects of reality in a way that supports processes requiring information, such as (for example) modelling the availability of rooms in hotels in a way that supports finding a hotel with vacancies.","A database-management system (DBMS) is a computer-software application that interacts with end-users, other applications, and the database itself to capture and analyze data. A general-purpose DBMS allows the definition, creation, querying, update, and administration of databases.","A database is not generally portable across different DBMSs, but different DBMSs can interoperate by using standards such as SQL and ODBC or JDBC to allow a single application to work with more than one DBMS."],
+		"learningObjectives":["Learn Relational Databases","Learn Relational Algebra","Learn SQL","Learn Relational Design Overview","Learn Fundamental dependencies","Learn Normal Forms","Learn UML Model","Learn Transactions","Learn Constraints","Learn Triggers","Learn Views"],
+		"units" :
+		[
+			{
+				"title":"Introduction and Relational Databases",
+				"overview":["A relational database is a digital database based on the relational model of data, as proposed by E. F. Codd in 1970. A software system used to maintain relational databases is a relational database management system (RDBMS). Virtually all relational database systems use SQL (Structured Query Language) for querying and maintaining the database."],
+				"learningObjectives":["Learn Relational model","Learn Querying Relational databases"],
+				"activities":
+				[
+					"Introduction to Databases",
+					"The Relational Model",
+					"Querying Relational Databases",
+					"Quiz on Introduction to Databases"
+				]
+			},
+			{
+				"title":"Relational Algebra Part-1",
+				"overview":["The main application of relational algebra is providing a theoretical foundation for relational databases, particularly query languages for such databases, chief among which is SQL."],
+				"learningObjectives":["Learn Select operator","Learn Cross product","Learn of Theta and Natural Join","Learn Rename operator"],
+				"activities":
+				[
+					"Select Operator",
+					"Quiz on Select Operator",
+					"Cross product or Cartesian product",
+					"Quiz on Cross product or Cartesian product",
+					"Natural Join",
+					"Quiz on Natural Join",
+					"Theta Join",
+					"Difference Operator",
+					"Quiz on Difference Operator",
+					"Rename Operator",
+					"Quiz on Rename Operator",
+					"Alternate Notation",
+					"Quiz on Relational Algebra Part-1",
+					"Assignment-1"
+				]
+			},
+			{
+				"title" : "Relational Algebra Part-2",
+				"overview":["The main application of relational algebra is providing a theoretical foundation for relational databases, particularly query languages for such databases, chief among which is SQL."],
+				"learningObjectives":["Usage of Select operator","Usage of Cross product","Usage of Theta and Natural Join","Usage of Rename operator"],
+				"activities":
+				[
+					"Relational Algebra",
+					"Quiz on Relational Algebra",
+					"Assignment-1"
+
+				]
+			},
+			
+			{
+				"title" : "SQL-1",
+				"overview":["SQL (Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system. It is particularly useful in handling structured data where there are relations between different entities/variables of the data."],
+				"learningObjectives":["Learn Basic select statements","Learn Table variables","Learn Set operators","Learn subqueries in where"],
+				"activities":
+				[
+					"Introduction to SQL",
+					"Basic Select Statement",
+					"Table Variables and Set Operators",
+					"Subqueries in WHERE",
+					"Quiz on SQL-1",
+					"Assignment-1"
+				]
+			},
+			{
+				"title" : "SQL-2",
+				"overview":["SQL offers two main advantages over older read/write APIs like ISAM or VSAM: first, it introduced the concept of accessing many records with one single command; and second, it eliminates the need to specify how to reach a record, e.g. with or without an index."],
+				"learningObjectives":["Learn subqueries in from","Learn subqueries in select","Learn Aggregation","Learn Null values"],	 
+				"activities":
+				[
+					"Subqueries in FROM and SELECT",
+					"Aggregation",
+					"NULL Values",
+					"Quiz on SQL-2",
+					"Assignment-1"
+				]
+			},
+			{
+				"title" : "SQL-3",
+				"overview":["Originally based upon relational algebra and tuple relational calculus, SQL consists of many types of statements, which may be informally classed as sublanguages, commonly: a data query language (DQL), a data definition language (DDL), a data control language (DCL), and a data manipulation language (DML)"],
+				"learningObjectives":["Learn Data modification Statements","Learn Join operators","Learn querying the database"],
+				"activities":
+				[
+					"Data Modification Statements",
+					"Join Operators",
+					"Quiz on SQL-3",
+					"Assignment-1"
+				]
+			},
+			{
+				"title" : "SQL-4",
+				"overview":["Up to now you learnt about different SQL queries. In this Unit you are going to practice the queries. Please follow the videos in the Activities and try to solve the Assignment problems."],
+				"learningObjectives":["Learn querying the database"],
+				"activities":
+				[
+					"SQL-4",
+					"Quiz on SQL-4",
+					"Assignment-1"
+				]
+			},
+			{
+				"title" : "SQL-5",
+				"overview":["Up to now you learnt about different SQL queries. In this Unit you are going to practice the queries. Please follow the videos in the Activities and try to solve the Assignment problems."],
+				"learningObjectives":["Learn querying the database"],
+				"activities":
+				[
+					"SQL-5",
+					"Quiz on SQL-5",
+					"Assignment-1"
+				]
+			},
+			{
+				"title" : "SQL-6",
+				"overview":["Up to now you learnt about different SQL queries. In this Unit you are going to practice the queries. Please follow the videos in the Activities and try to solve the Assignment problems."],
+				"learningObjectives":["Learn querying the database"],
+				"activities":
+				[
+					"SQL-6",
+					"Quiz on SQL-6",
+					"Assignment-1"
+				]
+			},
+			{
+				"title" : "SQL-7",
+				"overview":["Up to now you learnt about different SQL queries. In this Unit you are going to practice the queries. Please follow the videos in the Activities and try to solve the Assignment problems."],
+				"learningObjectives":["Learn querying the database"],
+				"activities":
+				[
+					"SQL-7",
+					"Quiz on SQL-7",
+					"Assignment-1"
+				]
+			},
+			{
+				"title" : "Relational Database Overview and Functional Dependencies",
+				"overview":["In relational database theory, a functional dependency is a constraint between two sets of attributes in a relation from a database. In other words, functional dependency is a constraint that describes the relationship between attributes in a relation."],
+				"learningObjectives":["Learn Relational Design Overview","Learn Functional dependencies"],
+				"activities":
+				[
+					"Relational Design Overview-1",
+					"Quiz on Relational Design Overview-1",
+					"Relational Design Overview-2",
+					"Quiz on Relational Design Overview-2",
+					"Relational Design Overview-3",
+					"Quiz on Relational Design Overview-3",
+					"Relational Design Overview-4",
+					"Functional Dependencies-1",
+					"Quiz on Functional Dependencies-1",
+					"Functional Dependencies-2",
+					"Quiz on Functional Dependencies-2",
+					"Functional Dependencies-3",
+					"Quiz on Functional Dependencies-3",
+					"Functional Dependencies-4",
+					"Quiz on Functional Dependencies-4",
+					"Functional Dependencies-5",
+					"Assignment-1"
+					
+				]
+			},
+			{
+				"title" : "Boyce-Codd Normal Form, Multivalued Dependencies, 4NF",
+				"overview":["Boyce–Codd normal form is a normal form used in database normalization. It is a slightly stronger version of the third normal form.According to database theory, a multivalued dependency is a full constraint between two sets of attributes in a relation.","4NF is the next level of normalization after Boyce–Codd normal form (BCNF). Whereas the second, third, and Boyce–Codd normal forms are concerned with functional dependencies, 4NF is concerned with a more general type of dependency known as a multivalued dependency"],
+				"learningObjectives":["Learn Boyce-Codd Normal Form","Learn Multivalued Dependencies","Learn Shortcomings of BCNF and 4NF"],
+				"activities":
+				[
+					"Boyce-Codd Normal Form-1",
+					"Quiz on Boyce-Codd Normal Form-1",
+					"Boyce-Codd Normal Form-2",
+					"Quiz on Boyce-Codd Normal Form-2",
+					"Boyce-Codd Normal Form-3",
+					"Multivalued Dependencies-1",
+					"Quiz on Multivalued Dependencies-1",
+					"Multivalued Dependencies-2",
+					"Quiz on Multivalued Dependencies-2",
+					"Multivalued Dependencies-3",
+					"Quiz on Multivalued Dependencies-3",
+					"Multivalued Dependencies-4",
+					"Assignment-1",
+					"Assignment-2"
+				]
+			},
+
+			{
+				"title" : "UML Data Modeling",
+				"overview":["A data model is an abstract model that organizes elements of data and standardizes how they relate to one another and to properties of the real world entities. For instance, a data model may specify that the data element representing a car be composed of a number of other elements which, in turn, represent the color and size of the car and define its owner."],
+				"learningObjectives":["Learn UML Data modeling","Usage of UML diagram"],
+				"activities":
+				[
+					"UML Data Modeling"
+				]
+			},
+
+			{
+				"title" : "UML to Relations",
+				"overview":["Object-relational mapping in computer science is a programming technique for converting data between incompatible type systems using object-oriented programming languages."],
+				"learningObjectives":["Learn UML to relation Conversion"],
+				"activities":
+				[
+					"UML to Relations-1",
+					"Quiz on UML to Relations-1",
+					"UML to Relations-2",
+					"Quiz on UML to Relations-2",
+					"UML to Relations-3"
+				]
+			},
+
+			{
+				"title" : "Indexes",
+				"overview":["A database index is a data structure that improves the speed of data retrieval operations on a database table at the cost of additional writes and storage space to maintain the index data structure. Indexes are used to quickly locate data without having to search every row in a database table every time a database table is accessed. Indexes can be created using one or more columns of a database table, providing the basis for both rapid random lookups and efficient access of ordered records."],
+				"learningObjectives":["Learn Indexes","Usage of Indexes"],
+				"activities":
+				[
+					"Indexes-1",
+					"Quiz on Indexes-1",
+					"Indexes-2",
+					"Indexes Final Quiz"
+				]
+			},
+
+			{
+				"title" : "Transactions",
+				"overview":["A database transaction, by definition, must be atomic, consistent, isolated and durable. Database practitioners often refer to these properties of database transactions using the acronym ACID."],
+				"learningObjectives":["Learn Transaction Properties","Learn Isolation Levels"],
+				"activities":
+				[
+					"Transactions Introduction",
+					"Transactions Properties-1",
+					"Quiz on Transactions Properties-1",
+					"Transactions Properties-2",
+					"Quiz on Transactions Properties-2",
+					"Transactions Properties-3",
+					"Isolation Levels-1",
+					"Quiz on Isolation Levels-1",
+					"Isolation Levels-2",
+					"Quiz on Isolation Levels-2",
+					"Isolation Levels-3",
+					"Quiz on Isolation Levels-3",
+					"Isolation Levels-4",
+					"Quiz on Transactions",
+					"Assignment-1",
+					"Assignment-2",
+					"Assignment-3",
+					"Assignment-4"
+
+				]
+			},
+
+			{
+				"title" : "Constraints",
+				"overview":["Database constraints are constraints on a database that require relation to satisfy certain properties. Relations that satisfy all such constraints are legal relations."],
+				"learningObjectives":["Learn Constraints","Learn Referential Integrity","Usage of Constraints"],
+				"activities":
+				[
+					"Motivation and Overview",
+					"Constraints-1",
+					"Quiz on Constraints-1",
+					"Constraints-2",
+					"Referential Integrity-1",
+					"Quiz on Referential Integrity-1",
+					"Referential Integrity-2",
+					"Quiz on Referential Integrity-2",
+					"Referential Integrity-3",
+					"Assignment-1"
+				]
+			},
+
+			{
+				"title" : "Triggers",
+				"overview":["A database trigger is procedural code that is automatically executed in response to certain events on a particular table or view in a database. The trigger is mostly used for maintaining the integrity of the information on the database."],
+				"learningObjectives":["Learn Triggers","Usage of Triggers"],
+				"activities":
+				[
+					"Triggers Introduction",
+					"Triggers Demo-1",
+					"Triggers Demo-2",
+					"Quiz on Constraints and Triggers",
+					"Assignment-1",
+					"Assignment-2",
+					"Assignment-3"
+				]
+			},
+
+			{
+				"title" : "Views-1",
+				"overview":["In a database, a view is the result set of a stored query on the data, which the database users can query just as they would in a persistent database collection object. "],
+				"learningObjectives":["Defining Views","Usage of Views","Views Modifications","Usage of Views with triggers"],
+				"activities":
+				[
+					"Defining and Using Views",
+					"View Modifications Introduction-1",
+					"Quiz on View Modifications Introduction-1",
+					"View Modifications Introduction-2",
+					"View Modifications Using Triggers",
+					"Assignment-1"
+				]
+			},
+
+			{
+				"title" : "Views-2",
+				"overview":["Views can represent a subset of the data contained in a table. Consequently, a view can limit the degree of exposure of the underlying tables to the outer world: a given user may have permission to query the view, while denied access to the rest of the base table"],
+				"learningObjectives":["Learn Automatic view Modifications","Learn Materialized Views"],
+				"activities":
+				[
+					"Automatic View Modifications",
+					"Materialized Views-1",
+					"Quiz on Materialized Views-1",
+					"Materialized Views-2",
+					"Quiz on Materialized Views-2",
+					"Materialized Views-3",
+					"Quiz on Views",
+					"Assignment-1"
+
+				]
+			}
+		]
+	}

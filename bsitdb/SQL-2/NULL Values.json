@@ -1,0 +1,19 @@
+[{
+	"title":"NULL Values",
+	"activityType":"video",
+	"videoURL":"/NULL Values.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+
+
+
+

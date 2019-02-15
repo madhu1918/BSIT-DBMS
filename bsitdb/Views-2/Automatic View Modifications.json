@@ -1,0 +1,20 @@
+[{
+	"title":"Automatic View Modifications",
+	"activityType":"video",
+	"videoURL":"/Automatic View Modifications.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+ 
+
+
+
+

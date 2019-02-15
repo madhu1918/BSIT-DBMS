@@ -1,0 +1,36 @@
+[{
+	"title": "Assignment on SQL-7",
+	"activityType": "assignment",
+	"questions": [{
+			"questionType": "filesubmission",
+			"questionText": " Find those students for whom all of their friends are in different grades from themselves. Return the students' names and grades. ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " It's time for the seniors to graduate. Remove all 12th graders from Highschooler.  ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " For all cases where A is friends with B, and B is friends with C, add a new friendship for the pair A and C. Do not add duplicate friendships, friendships that already exist, or friendships with oneself. (This one is a bit challenging; congratulations if you get it right.) ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find the name and grade of the student(s) with the greatest number of friends. ",
+			"points":"5"
+			
+		}
+		
+
+
+
+	]
+}]

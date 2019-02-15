@@ -1,0 +1,19 @@
+[{
+	"title":"Introduction to Databases",
+	"activityType":"video",
+	"videoURL":"/Introduction to Databases.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+
+
+
+

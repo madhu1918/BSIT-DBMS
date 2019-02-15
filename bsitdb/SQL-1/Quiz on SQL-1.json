@@ -1,0 +1,62 @@
+[{
+	"title": "Quiz on SQL-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "filesubmission",
+			"questionText": " Find ID,Name,GPA of students whose GPA is less than 3.6. ",
+			"points":"3"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all the student Names who are applied for ‘Stanford’ and major is ‘CS’ ",
+			"points":"3"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all pairs of students whose GPA is same(explained in video) ",
+			"points":"3"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all the Names, GPA of students in ascending order of Names ",
+			"points":"3"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all the sID’s who are applied for ‘psychology’ and ‘history’ using intersect operator. ",
+			"points":"3"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all the sID’s who are applied for ‘psychology’ but not ‘history’ using except operator. ",
+			"points":"3"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all students who applied for ‘CS’ in ‘Stanford’ ",
+			"points":"3"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find Name, GPA of all the students who are applied for ‘MIT’ ",
+			"points":"3"
+			
+		}
+	
+
+	]
+}]

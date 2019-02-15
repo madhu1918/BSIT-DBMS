@@ -1,0 +1,41 @@
+[{
+	"title": "Assignment on Relational Algebra",
+	"activityType": "assignment",
+	"questions": [{
+			"questionType": "filesubmission",
+			"questionText": " Find the names of all people who eat at least one pizza served by Dominos but who do not frequent Dominos. ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all pizzas that are eaten only by people younger than 24, or that cost less than $10 everywhere they're served. ",
+			"points":"3"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find the age of the oldest person (or people) who eat mushroom pizza. ",
+			"points":"3"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all pizzerias that serve only pizzas eaten by people over 30. ",
+			"points":"3"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all pizzerias that serve every pizza eaten by people over 30. ",
+			"points":"3"
+			
+		}
+	
+	
+
+	]
+}]

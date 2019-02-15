@@ -1,0 +1,16 @@
+[{
+	"title":"UML Data Modeling",
+	"activityType":"video",
+	"videoURL":"/UML Data Modeling.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+ 

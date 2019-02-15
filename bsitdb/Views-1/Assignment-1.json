@@ -1,0 +1,40 @@
+[{
+	"title": "Assignment-1",
+	"activityType": "assignment",
+	"questions": [{
+			"questionType": "filesubmission",
+			"questionText": " Write an instead-of trigger that enables updates to the title attribute of view LateRating.  ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Write an instead-of trigger that enables updates to the stars attribute of view LateRating.  ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Write an instead-of trigger that enables updates to the mID attribute of view LateRating. ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Write an instead-of trigger that enables deletions from view HighlyRated. ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Write an instead-of trigger that enables deletions from view HighlyRated.  ",
+			"points":"5"
+			
+		}
+
+	]
+}]

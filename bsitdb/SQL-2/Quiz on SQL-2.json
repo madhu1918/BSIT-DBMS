@@ -1,0 +1,42 @@
+[{
+	"title": "Quiz on SQL-2",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "filesubmission",
+			"questionText": " Find the name of the student who has maximum GPA. ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find the Average GPA of the students who applied for ‘MIT’ ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find number of students applied for ‘Stanford’ ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find the name of college with minimum enrollments. ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all the students who are applied for ‘CS’ and ‘EE’ and whose GPA is less than 3.5 ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Insert the data into Student table by executing following command <br> insert into Student values(420, ’kevin’, null, 5000)<br>Find the name of all the students whose GPA is not null",
+			"points":"3"
+		}
+	
+
+	]
+}]

@@ -1,0 +1,34 @@
+[{
+	"title": "Quiz on UML to Relations-2",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider a superclass S with some number of subclasses. Suppose the subclassing relationship is incomplete (partial) and overlapping. Let size1, size2, and size3 denote the total number of tuples using translation schemes 1, 2, and 3. How are these three values guaranteed to be related for any data? ",
+			"points":"1",
+			"options": [{
+					"option": "size1 < size2 < size3",
+					"correct": "False"
+				},
+
+				{
+					"option": "size1 <= size2 <= size3",
+					"correct": "False"
+				},
+
+				{
+					"option": "size3 < size2 < size1",
+					"correct": "False"
+				},
+
+				{
+					"option": "size3 <= size2 <= size1",
+					"correct": "True"
+				}
+
+				
+			]
+		}
+	]
+}
+]
+

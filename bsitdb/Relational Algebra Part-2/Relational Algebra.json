@@ -1,0 +1,19 @@
+[{
+	"title":"Relational Algebra",
+	"activityType":"video",
+	"videoURL":"/.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}
+]
+
+
+

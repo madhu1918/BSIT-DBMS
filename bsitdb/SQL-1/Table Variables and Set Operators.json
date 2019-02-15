@@ -1,0 +1,19 @@
+[{
+	"title":"Table Variables and Set Operators",
+	"activityType":"video",
+	"videoURL":"/Table Variables and Set Operators.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}
+
+]
+
+

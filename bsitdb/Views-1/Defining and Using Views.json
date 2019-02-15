@@ -1,0 +1,17 @@
+[{
+	"title":"Defining and Using Views",
+	"activityType":"video",
+	"videoURL":"/Defining and Using Views.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+ 
+

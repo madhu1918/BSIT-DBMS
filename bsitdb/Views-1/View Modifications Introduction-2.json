@@ -1,0 +1,18 @@
+[{
+	"title":"View Modifications Introduction-2",
+	"activityType":"video",
+	"videoURL":"/View Modifications Introduction-2.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+ 
+
+

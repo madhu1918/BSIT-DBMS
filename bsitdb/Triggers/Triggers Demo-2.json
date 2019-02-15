@@ -1,0 +1,16 @@
+[{
+	"title":"Triggers Demo-2",
+	"activityType":"video",
+	"videoURL":"/Triggers Demo-2.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+ 

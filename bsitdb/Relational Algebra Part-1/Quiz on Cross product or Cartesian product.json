@@ -1,0 +1,28 @@
+[{
+	"title": "Quiz on Cross product or Cartesian product",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Which of the following expressons does NOT return the names and GPAs of students with HS>1000 who applied to CS and were rejected? ",
+			"points":"1",
+			"options": [{
+					"option":[{"image":{"imageSRC":"cross1.png", "imageName":""}}],
+					"correct": "False"
+				},
+
+				{
+					"option": [{"image":{"imageSRC":"cross2.png", "imageName":""}}],
+					"correct": "False"
+				},
+
+				{
+					"option": [{"image":{"imageSRC":"cross3.png", "imageName":""}}],
+					"correct": "True"
+				}
+
+			]
+		}
+
+		
+	]
+}]

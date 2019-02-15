@@ -1,0 +1,36 @@
+[{
+	"title": "Assignment on SQL-3",
+	"activityType": "assignment",
+	"questions": [{
+			"questionType": "filesubmission",
+			"questionText": " Insert a new entry into Student table with following data <br>sID = 863, sName = Harry, GPA = 3.7, sizeHS = 1000",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all the students who didn’t applied for any college ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Update GPA of all the students by adding 0.1 to the original GPA ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find all the students who have applied to colleges present in ‘CA’ state ",
+			"points":"3"
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Delete all apply entries where cName is MIT ",
+			"points":"3"
+		}
+		
+
+	]
+}]

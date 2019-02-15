@@ -1,0 +1,33 @@
+[{
+	"title": "Quiz on Multivalued Dependencies-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider a relation R(A,B,C) with multivalued dependency A ->-> B. Suppose there at least 3 different values for A, and each value of A is associated with at least 4 different B values and at least 5 different C values. What is the minimum number of tuples in R? ",
+			"points":"1",
+			
+			"options": [{
+					"option": "60",
+					"correct": "True"
+				},
+
+				{
+					"option": "15",
+					"correct": "False"
+				},
+
+				{
+					"option": "12",
+					"correct": "False"
+				},
+
+				{
+					"option": "27",
+					"correct": "False"
+				}
+
+			]
+		}
+
+	]
+}]

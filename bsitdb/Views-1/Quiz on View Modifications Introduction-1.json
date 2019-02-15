@@ -1,0 +1,33 @@
+[{
+	"title": "Quiz on View Modifications Introduction-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider tables R(A,B) and S(B,C) and a view V = select A,C from R,S where R.B=S.B. [[may want to format]] Suppose R={(1,5),(2,5)} and S={(5,10)}, so V={(1,10),(2,10)}. The user wants to delete tuple (2,10) from V. Which of the following modifications to R and/or S does NOT correctly reflect this modification? ",
+			"points":"1",
+
+			"options": [{
+					"option": "delete (2,5) from R",
+					"correct": "False"
+				},
+
+				{
+					"option": "update (2,5) to (2,6) in R",
+					"correct": "False"
+				},
+
+				{
+					"option": "update (2,5) to (1,6) in R",
+					"correct": "False"
+				},
+
+				{
+					"option": "delete (5,10) from S",
+					"correct": "True"
+				}
+
+			]
+		}
+
+	]
+}]

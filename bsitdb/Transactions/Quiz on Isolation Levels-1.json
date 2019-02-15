@@ -1,0 +1,32 @@
+[{
+	"title": "Quiz on Isolation Levels-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider a table R(A) containing {(1),(2)}. Suppose transaction T1 is \"update R set A = 2*A\" and transaction T2 is \"select avg(A) from R\". If transaction T2 executes using \"read uncommitted\", what are the possible values it returns? ",
+			"points":"1",
+			"options": [{
+					"option": "1.5, 2, 2.5, 3",
+					"correct": "True"
+				},
+
+				{
+					"option": "1.5, 2, 3",
+					"correct": "False"
+				},
+
+				{
+					"option": "1.5, 2.5, 3",
+					"correct": "False"
+				},
+
+				{
+					"option": "1.5, 3",
+					"correct": "False"
+				}
+
+			]
+		}
+
+	]
+}]

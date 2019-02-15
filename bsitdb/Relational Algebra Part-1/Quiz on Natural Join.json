@@ -1,0 +1,33 @@
+[{
+	"title": "Quiz on Natural Join",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText":[{"text":"Which of the following English sentences describes the result of this expression:"},{"image":{"imageSRC":"Natural1.png", "imageName":""}}],
+			"points":"1",
+			"options": [{
+					"option": " All student-college name pairs, where the student is applying to major in CS at the college, the college is in California, and the college is smaller than some high school ",
+					"correct": "False"
+				},
+
+				{
+					"option": " Students paired with all California colleges to which the student applied to major in CS, where at least one of those colleges is smaller than the student's high school ",
+					"correct": "False"
+				},
+
+				{
+					"option": " Students paired with all colleges smaller than the student's high school to which the student applied to major in CS, where at least one of those colleges is in California ",
+					"correct": "False"
+				},
+
+				{
+					"option": " Students paired with all California colleges smaller than the student's high school to which the student applied to major in CS ",
+					"correct": "True"
+				}
+
+			]
+		}
+
+		
+	]
+}]

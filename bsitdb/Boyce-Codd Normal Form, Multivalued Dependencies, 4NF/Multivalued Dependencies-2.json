@@ -1,0 +1,20 @@
+[{
+	"title":"Multivalued Dependencies-2",
+	"activityType":"video",
+	"videoURL":"/Multivalued Dependencies-2.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}
+]
+
+
+
+

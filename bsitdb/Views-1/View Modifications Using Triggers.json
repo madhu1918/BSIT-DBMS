@@ -1,0 +1,19 @@
+[{
+	"title":"View Modifications Using Triggers",
+	"activityType":"video",
+	"videoURL":"/View Modifications Using Triggers.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+ 
+
+
+

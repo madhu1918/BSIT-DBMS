@@ -1,0 +1,19 @@
+[{
+	"title":"Subqueries in FROM and SELECT",
+	"activityType":"video",
+	"videoURL":"/Subqueries in FROM and SELECT.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+
+
+
+

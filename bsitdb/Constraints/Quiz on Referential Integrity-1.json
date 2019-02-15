@@ -1,0 +1,34 @@
+[{
+	"title": "Quiz on Referential Integrity-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider two tables Dorm(name,address), Student(name,dormName,roommateName). Suppose some students live in single rooms (roommateName is NULL) and no dorms are empty. Which of the following referential integrity constraints does NOT hold? ",
+			"points":"1",
+			
+			"options": [{
+					"option": "Student.dormName to Dorm.name",
+					"correct": "False"
+				},
+
+				{
+					"option": "Dorm.name to Student.dormName",
+					"correct": "False"
+				},
+
+				{
+					"option": "Student.name to Student.roommateName",
+					"correct": "True"
+				},
+
+				{
+					"option": "Student.roommateName to Student.name",
+					"correct": "False"
+				}
+
+			],
+			"feedback":"Answer 1 says every student's dorm exists. Answer 2 says every dorm has at least one student. Answer 3 says every student is some other student's roommate (not required). Answer 4 says every roommate is an actual student."
+		}
+
+	]
+}]

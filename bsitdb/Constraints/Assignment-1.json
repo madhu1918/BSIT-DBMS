@@ -1,0 +1,76 @@
+[{
+	"title": "Assignment-1",
+	"activityType": "assignment",
+	"quizDescription":"Modify the three CREATE TABLE statements in the movie-rating database to add the following ten constraints.",
+	"questions": [{
+			"questionType": "filesubmission",
+			"questionText": "mID is a key for Movie",
+			"points":"3"
+			},
+
+			{
+				"questionType": "filesubmission",
+				"questionText": "(title,year) is a key for Movie",
+				"points":"3"
+
+			},
+
+			{
+				"questionType": "filesubmission",
+				"questionText": "rID is a key for Reviewer",
+				"points":"3"
+
+			},
+
+			{
+				"questionType": "filesubmission",
+				"questionText": "(rID,mID,ratingDate) is a key for Rating but with null values allowed",
+				"points":"3"
+
+			},
+
+			{
+				"questionType": "filesubmission",
+				"questionText": "Reviewer.name may not be NULL",
+				"points":"3"
+
+			},
+
+			{
+				"questionType": "filesubmission",
+				"questionText": "Rating.stars may not be NULL",
+				"points":"3"
+
+			},
+
+			{
+				"questionType": "filesubmission",
+				"questionText": "Movie.year must be after 1900",
+				"points":"3"
+
+			},
+
+			{
+				"questionType": "filesubmission",
+				"questionText": "Rating.stars must be in {1,2,3,4,5}",
+				"points":"3"
+
+			},
+
+			{
+				"questionType": "filesubmission",
+				"questionText": "Rating.ratingDate must be after 2000",
+				"points":"3"
+
+			},
+
+			{
+				"questionType": "filesubmission",
+				"questionText": "\"Steven Spielberg\" movies must be before 1990 and \"James Cameron\" movies must be after 1990",
+				"points":"3"
+				
+			}
+
+
+	]
+}]

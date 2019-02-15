@@ -1,0 +1,19 @@
+[{
+	"title":"Subqueries in WHERE",
+	"activityType":"video",
+	"videoURL":"/Subqueries in WHERE.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}
+]
+
+
+

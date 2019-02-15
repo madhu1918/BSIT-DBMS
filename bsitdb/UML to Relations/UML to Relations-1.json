@@ -1,0 +1,16 @@
+[{
+	"title":"UML to Relations-1",
+	"activityType":"video",
+	"videoURL":"/UML to Relations-1.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+ 

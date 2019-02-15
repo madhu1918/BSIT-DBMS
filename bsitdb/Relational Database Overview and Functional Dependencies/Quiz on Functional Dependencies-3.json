@@ -1,0 +1,32 @@
+[{
+	"title": "Quiz on Functional Dependencies-3",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider the relation R(A,B,C,D,E) and suppose we have the functional dependencies AB  → C, AE  →  D, and D  →  B. Which of the following attribute pairs is a key for R? ",
+			"points":"1",
+			"options": [{
+					"option": "AB",
+					"correct": "False"
+				},
+
+				{
+					"option": "AC",
+					"correct": "False"
+				},
+
+				{
+					"option": "AD",
+					"correct": "False"
+				},
+
+				{
+					"option": "AE",
+					"correct": "True"
+				}
+
+			]
+		}
+
+	]
+}]

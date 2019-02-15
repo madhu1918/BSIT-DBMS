@@ -1,0 +1,19 @@
+[{
+	"title":"Data Modification Statements",
+	"activityType":"video",
+	"videoURL":"/Data Modification Statements.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+
+
+
+

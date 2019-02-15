@@ -1,0 +1,16 @@
+[{
+	"title":"Referential Integrity-1",
+	"activityType":"video",
+	"videoURL":"/Referential Integrity-1.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+ 

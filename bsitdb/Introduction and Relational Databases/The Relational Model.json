@@ -1,0 +1,19 @@
+[{
+	"title":"The Relational Model",
+	"activityType":"video",
+	"videoURL":"/Relational Model.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+
+
+
+

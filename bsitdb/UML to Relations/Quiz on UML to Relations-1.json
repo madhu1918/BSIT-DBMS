@@ -1,0 +1,23 @@
+[{
+	"title": "Quiz on UML to Relations-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Suppose we had 0..2 on the right-hand side, so students can apply to up to 2 colleges? Is there still a way to \"fold in\" the association relation in this case, or must we have a separate Applied relation? ",
+			"points":"1",
+			"options": [{
+					"option": "Yes there is a way",
+					"correct": "True"
+				},
+
+				{
+					"option": "No, if it's not 0..1 or 1..1 then Applied is required",
+					"correct": "False"
+				}
+
+			]
+		}
+	]
+}
+]
+

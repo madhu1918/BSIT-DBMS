@@ -1,0 +1,32 @@
+[{
+	"title": "Quiz on Boyce-Codd Normal Form-2",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider relation Apply(SSN,cName,state,date,major) with FDs cName  →  state and SSN,cName  →  date,major. What schema would be produced by the BCNF decomposition algorithm? ",
+			"points":"1",
+			"options": [{
+					"option": "Apply(SSN,cName,state,date,major)",
+					"correct": "False"
+				},
+
+				{
+					"option": "A1(cName,state), A2(SSN,cName,date,major)",
+					"correct": "True"
+				},
+
+				{
+					"option": "A1(cName,state), A2(SSN,date,major)",
+					"correct": "False"
+				},
+
+				{
+					"option": "A1(cName,state), A2(SSN,cName,date), A3(SSN,cName,major)",
+					"correct": "False"
+				}
+
+			]
+		}
+
+	]
+}]

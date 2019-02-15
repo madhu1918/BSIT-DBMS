@@ -1,0 +1,19 @@
+[{
+	"title":"Transactions Introduction",
+	"activityType":"video",
+	"videoURL":"/Transactions Introduction.mp4"
+	
+},
+{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video"
+			}
+		]
+	}]
+
+
+
+

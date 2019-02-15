@@ -1,0 +1,43 @@
+[{
+	"title": "Assignment-1",
+	"activityType": "assignment",
+	"questions": [{
+			"questionType": "filesubmission",
+			"questionText": " For every pair of students who both like each other, return the name and grade of both students. Include each pair only once, with the two names in alphabetical order. ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find names and grades of students who only have friends in the same grade. Return the result sorted by grade, then by name within each grade. ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " For each student A who likes a student B where the two are not friends, find if they have a friend C in common (who can introduce them!). For all such trios, return the name and grade of A, B, and C. ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find the difference between the number of students in the school and the number of different first names. ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " What is the average number of friends per student? (Your result should be just one number.) ",
+			"points":"5"
+			
+		}
+		
+
+
+
+	]
+}]

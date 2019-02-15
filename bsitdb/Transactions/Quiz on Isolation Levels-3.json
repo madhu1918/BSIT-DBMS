@@ -1,0 +1,33 @@
+[{
+	"title": "Quiz on Isolation Levels-3",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider table R(A) containing {(1),(2)}. Suppose transaction T1 is \"update T set A=2*A; insert into R values (6)\" and transaction T2 is \"select avg(A) from R; select avg(A) from R\". If transaction T2 executes using \"repeatable read\", what are the possible values returned by its SECOND statement? ",
+			"points":"1",
+			
+			"options": [{
+					"option": "1.5, 4",
+					"correct": "True"
+				},
+
+				{
+					"option": "1.5, 2, 4",
+					"correct": "False"
+				},
+
+				{
+					"option": "1.4, 3, 4",
+					"correct": "False"
+				},
+
+				{
+					"option": "1.5, 2, 3, 4",
+					"correct": "False"
+				}
+
+			]
+		}
+
+	]
+}]

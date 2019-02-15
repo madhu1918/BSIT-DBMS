@@ -1,0 +1,50 @@
+[{
+	"title": "Quiz on Relational Design Overview-3",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider the relation StudentInfo(sID, dorm, courseNum). Students typically live in several dorms and take many courses during college. Suppose the data does not capture which dorm(s) a student lived in when taking a specific course, i.e., all dorm-course combinations are recorded for each student. What are all of the multivalued dependencies for relation StudentInfo? ",
+			"points":"1",
+			"options": [{
+					"option": "sID ->-> dorm",
+					"correct": "False"
+				},
+
+				{
+					"option": "sID ->-> courseNum",
+					"correct": "False"
+				},
+
+				{
+					"option": "sID ->-> dorm, sID ->-> courseNum",
+					"correct": "True"
+				},
+
+				{
+					"option": "sID ->-> dorm, sID ->-> courseNum, dorm ->-> courseNum",
+					"correct": "False"
+				}
+
+			]
+		},
+
+
+		{
+			"questionType": "mcq",
+			"questionText": " Consider the relation StudentInfo(sID, dorm, courseNum) with multivalued dependencies sID ->-> dorm and sID ->-> courseNum. Is StudentInfo in Fourth Normal Form? ",
+			"points":"1",
+			"options": [{
+					"option": "Yes",
+					"correct": "False"
+				},
+
+				{
+					"option": "No",
+					"correct": "True"
+				}
+
+			]
+		}
+
+	]
+}]

@@ -1,0 +1,60 @@
+[{
+	"title": "Quiz on Materialized Views-1",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider a materialized view on tables Faculty(name,homeDept) and Teaches(prof,course,dept): create materialized view V as select name from Faculty where name not in (select prof from Teaches where dept = homeDept) Which of the following modifications can NOT cause a change to V? ",
+			"points":"1",
+
+			"options": [{
+					"option": "insertion into Teaches",
+					"correct": "False"
+				},
+
+				{
+					"option": "deletion from Teaches",
+					"correct": "False"
+				},
+
+				{
+					"option": "insertion into Faculty",
+					"correct": "False"
+				},
+
+				{
+					"option": "update to Teaches.course",
+					"correct": "True"
+				}
+
+			]
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Consider a materialized view on table Item(category,price): create view V as select category from Item group by category having min(price) < 25 Which of the following modifications can NOT cause tuples to be deleted from V? ",
+			"points":"1",
+
+			"options": [{
+					"option": "deletion from Item",
+					"correct": "False"
+				},
+
+				{
+					"option": "update to Item.category",
+					"correct": "False"
+				},
+
+				{
+					"option": "update to Item.price that increases value",
+					"correct": "False"
+				},
+
+				{
+					"option": "update to Item.price that decreases value",
+					"correct": "True"
+				}
+
+			]
+		}
+	]
+}]

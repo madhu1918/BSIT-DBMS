@@ -1,0 +1,236 @@
+[{
+	"title": "Quiz on Constraints and Triggers",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider the following SQL table declaration:<br><code>CREATE TABLE R (a INT, b INT, c INT, CHECK( [fill-in] ));</code><br>Currently R contains the tuples (1,4,14), (2,3,15), and (3,3,16). Which of the following tuple-based CHECK constraints will cause the following insertion to be rejected?<br><code>INSERT INTO R VALUES (4,4,9);</code><br>Note: When a tuple-based check is invoked for an insert and includes a subquery over the same table, the subquery is evaluated on the table including the inserted tuple. ",
+				"points":"1",
+			"options": [{
+					"option": "c <= ALL (SELECT b + c FROM R)",
+					"correct": "False"
+				},
+
+				{
+					"option": "a <= ALL (SELECT c - b FROM R)",
+					"correct": "False"
+				},
+
+				{
+					"option": "b < (SELECT MIN(c) FROM R)",
+					"correct": "False"
+				},
+
+				{
+					"option": "a < (SELECT COUNT(c) FROM R)",
+					"correct": "True"
+				}
+
+			],
+			"feedback":"The insertion is rejected when the CHECK condition is false. Note that an attribute mentioned outside of a subquery refers to the inserted tuple. Substititue the inserted tuple's values for those variables, and evaluate the expression over the table; make sure to include the inserted tuple in any subqueries. Thus, for example, SUM(b) currently has the value 14 (including the inserted tuple), COUNT(c) has the value 4, and the result of \"SELECT b+c FROM R\" is {18,18,19,13}."
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Consider the following trigger over a table R(a,b), specified using the trigger language of the SQL standard: <br> <code>CREATE TRIGGER Rins<br>AFTER INSERT ON R<br>   REFERENCING NEW ROW AS new<br>   FOR EACH ROW<br>  INSERT INTO R(a,b)<br>     (SELECT DISTINCT R.a, new.b<br>      FROM R<br>      WHERE R.b = new.a)<br>     EXCEPT<br>     (SELECT DISTINCT a,b FROM R)</code> <br> Suppose table R is empty initially. We issue three commands to insert tuples into R: first we insert (1,2), then we insert (2,3), then we insert (3,4). After some of these inserts, trigger Rins may insert further tuples into R, which may activate the trigger recursively. After all the inserts are done, which of these tuples is NOT in table R? ",
+				"points":"1",
+
+			"options": [{
+					"option": "(3,1)",
+					"correct": "True"
+				},
+
+				{
+					"option": "(2,4)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(1,3)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(1,4)",
+					"correct": "False"
+				}
+
+			],
+			"feedback":"The trigger looks for existing tuples with a b value equal to the a value of the newly inserted tuple. It inserts new tuples with a values from the matching existing tuples and the b value from the new tuple. The EXCEPT part ensures that tuples are not inserted when the same tuple is already present. <br> Inserting (1,2) does not trigger the insertion of any other tuples. Inserting (2,3) triggers the insertion of (1,3), since the new a value of 2 matches the b value of the existing tuple (1,2). Inserting (1,3) does not (recursively) trigger the insertion of any other tuples. Inserting (3,4) triggers the insertion of (1,4) and (2,4), since the new a value of 3 matches the b value of the existing tuples (1,3) and (2,3). Inserting (1,4) does not (recursively) trigger the insertion of any other tuples. Inserting (2,4) (recursively) triggers the insertion of (1,4), since the new a value of 2 matches the b value of the existing tuple (1,2), but (1,4) is already present so a new copy is not inserted."
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Consider the following SQL table declaration:<br> <code>CREATE TABLE Emps (id INT, ssNo INT, name CHAR(20), managerID INT);<code><br>We would like to extend the table declaration to enforce that each of id and ssNo is a key (by itself), and each value of managerID must be one of the values that appears in the id attribute of the same table. Which of the following is not a legal addition of SQL standard key and/or foreign-key constraints? Note: The addition does not have to achieve all of the stated goals; it only must result in legal SQL. ",
+				"points":"1",
+
+			"options": [{
+					"option": "Add \"PRIMARY KEY\" after the first INT, and add \"UNIQUE\" after the second INT.",
+					"correct": "False"
+				},
+
+				{
+					"option": "Add \"PRIMARY KEY\" after the first INT, and add \", FOREIGN KEY (managerID) REFERENCES Emps(id)\" before the closing parenthesis.",
+					"correct": "False"
+				},
+
+				{
+					"option": "Add \"PRIMARY KEY\" after the first INT, and add \"REFERENCES Emps(id)\" before the closing parenthesis.",
+					"correct": "False"
+				},
+
+				{
+					"option": "Add \"UNIQUE\" after each of the first two INT's, and add \"REFERENCES Emps(id,ssNo)\" before the closing parenthesis.",
+					"correct": "True"
+				}
+
+			],
+			"feedback":"The correct answers (i.e., incorrect SQL) violate one of two rules:<br>1.You cannot have two primary keys (although you can have many \"uniques\").<br>2.A foreign key can only reference an attribute that is a key (either primary key or unique)."
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Here are SQL declarations for two tables S and T:<br><code>CREATE TABLE S(c INT PRIMARY KEY, d INT);  CREATE TABLE T(a INT PRIMARY KEY, b INT REFERENCES S(c));</code> <br>Suppose S(c,d) contains four tuples: (2,10), (3,11), (4,12), (5,13). Suppose T(a,b) contains four tuples: (0,4), (1,5), (2,4), (3,5). As a result of the constraints in the table declarations, certain insertions, deletions, and/or updates on S and T are disallowed. Which of the following modifications will not violate any constraint? ",
+				"points":"1",
+
+			"options": [{
+					"option": "Deleting (4,12) from S",
+					"correct": "False"
+				},
+
+				{
+					"option": "Inserting (6,1) into T",
+					"correct": "False"
+				},
+
+				{
+					"option": "Inserting (4,4) into S",
+					"correct": "False"
+				},
+
+				{
+					"option": "Deleting (3,11) from S",
+					"correct": "True"
+				}
+
+			],
+			"feedback":"The question choices explore insertions into both tables and deletions from S. Since attribute c is a key for S, we cannot insert into S any tuple with first component 2, 3, 4, or 5. Since attribute a is a key for T, we cannot insert into T any tuple with first component 0, 1, 2, or 3. Since attribute T.b is a foreign key referencing S.c: (1) An insertion into T must have second component 2, 3, 4, or 5; (2) We cannot delete from S any tuple whose first component is a second component of T, that is, 4 or 5."
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Here are SQL declarations for two tables S and T:<br><code>  CREATE TABLE S(c INT PRIMARY KEY, d INT);  CREATE TABLE T(a INT PRIMARY KEY, b INT, CHECK(b IN (SELECT c FROM S)));</code> <br> Suppose S(c,d) contains the four tuples: (2,10), (3,11), (4,12), (5,13). Suppose T(a,b) contains the four tuples: (0,4), (1,5), (2,4), (3,5). As a result of the constraints in the table declarations, certain insertions, deletions, and/or updates on S and T are disallowed. Which of the following modifications will not violate any constraint? ",
+				"points":"1",
+
+			"options": [{
+					"option": "Updating (3,5) in T to be (3,1)",
+					"correct": "False"
+				},
+
+				{
+					"option": "Updating (3,5) in T to be (3,3)",
+					"correct": "True"
+				},
+
+				{
+					"option": "Inserting (3,3) into T",
+					"correct": "False"
+				},
+
+				{
+					"option": "Inserting (5,0) into T",
+					"correct": "False"
+				}
+
+			],
+			"feedback":"The question choices explore insertions into both tables and updates to T. Since attribute c is a key for S, we cannot insert into S any tuple with first component 2, 3, 4, or 5. Since attribute a is a key for T, we cannot insert into T any tuple with first component 0, 1, 2, or 3. The CHECK constraint says: (1) An insertion into T must have second component 2, 3, 4, or 5; (2) An update to T must keep the value of the second component as one of 2, 3, 4, or 5."
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Consider the following trigger over a table R(a,b), specified using the trigger language of the SQL standard: <br> <code> CREATE TRIGGER Rins<br>  AFTER INSERT ON R<br>   REFERENCING NEW ROW AS new<br>  FOR EACH ROW<br>  WHEN (new.a * new.b > 10)<br>  INSERT INTO R VALUES (new.a - 1, new.b + 1);</code><br>When we insert a tuple into R, the trigger may cause another tuple to be inserted, which may cause yet another tuple to be inserted, and so on, until finally a tuple is inserted that does not cause the trigger to fire. Suppose we begin with table R empty. Consider the following possible tuples inserted into R. After trigger execution completes, which of the insertions results in R containing exactly 3 tuples? ",
+				"points":"1",
+
+			"options": [{
+					"option": "(4,4)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(4,3)",
+					"correct": "True"
+				},
+
+				{
+					"option": "(5,3)",
+					"correct": "False"
+				},
+
+				{
+					"option": "(11,1)",
+					"correct": "False"
+				}
+
+			],
+			"feedback":"Each time the trigger is activated by an insertion (x,y), if x*y is greater than 10 then the trigger inserts a new tuple (x-1,y+1). Thus, if we insert (x,y) first, then in order to insert exactly three tuples, we need for x*y and (x-1)*(y+1) to be greater than 10, but for (x-2)*(y+2) to be 10 or less."
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": " Here are SQL declarations for three tables R, S, and T: <br><code>  CREATE TABLE R(e INT PRIMARY KEY, f INT);<br>   CREATE TABLE S(c INT PRIMARY KEY, d INT REFERENCES R(e) ON DELETE CASCADE);<br>  CREATE TABLE T(a INT PRIMARY KEY, b INT REFERENCES S(c) ON DELETE CASCADE);</code><br>Suppose R(e,f) contains tuples (1,0), (2,4), (3,5), (4,3), and (5,7). Suppose S(c,d) contains tuples (1,5), (2,2), (3,3), (4,5), and (5,4). Suppose T(a,b) contains tuples (0,2), (1,2), (2,3), (3,4), and (4,4). As a result of the referential integrity actions in the table declarations, certain deletions may cause additional deletions to be performed automatically. Which of the following deletions, after all integrity actions, leaves table T empty? ",
+				"points":"1",
+
+			"options": [{
+					"option": "delete from R where f>3",
+					"correct": "True"
+				},
+
+				{
+					"option": "delete from R where e+f<=8",
+					"correct": "False"
+				},
+
+				{
+					"option": "delete from R where e+f>6",
+					"correct": "False"
+				},
+
+				{
+					"option": "delete from R where e*f>=10",
+					"correct": "False"
+				}
+
+			],
+			"feedback":"T contains tuples (0,2), (1,2), (2,3), (3,4), and (4,4). The removal of any of the following elements will result in the deletion of (0,2) from T: (0,2) from T, (2,2) from S, or (2,4) from R. The removal of any of the following elements will result in the deletion of (1,2) from T: (1,2) from T, (2,2) from S, or (2,4) from R. The removal of any of the following elements will result in the deletion of (2,3) from T: (2,3) from T, (3,3) from S, or (3,5) from R. The removal of any of the following elements will result in the deletion of (3,4) from T: (3,4) from T, (4,5) from S, or (5,7) from R. The removal of any of the following elements will result in the deletion of (4,4) from T: (4,4) from T, (4,5) from S, or (5,7) from R. For T to be empty, any deletion must remove at least one element from each set."
+		},
+
+		{
+			"questionType": "mcq",
+			"questionText": "  Here are SQL declarations for three tables R, S, and T: <br> <code>   CREATE TABLE R(e INT PRIMARY KEY, f INT); <br>   CREATE TABLE S(c INT PRIMARY KEY REFERENCES R(e) ON UPDATE CASCADE, d INT); <br>   CREATE TABLE T(a INT PRIMARY KEY, b INT REFERENCES S(c) ON UPDATE CASCADE);</code> <br>Suppose R(e,f) contains tuples (1,1), (3,4), (5,6), and (7,2). Suppose S(c,d) contains tuples (1,7), (3,2), (5,1) and (7, 5). Suppose T(a,b) contains tuples (1,1), (2,5), (3,5), and (4,3). As a result of the referential integrity actions in the table declarations, certain updates may cause additional updates to be performed automatically. Which of the following updates, after all integrity actions, leaves table T in a state such the sum of its b values is greater than 11 but less than 18? ",
+				"points":"1",
+			
+			"options": [{
+					"option": "update R set e=e-3 where e>4",
+					"correct": "False"
+				},
+
+				{
+					"option": "update R set e=e-3 where f>1",
+					"correct": "False"
+				},
+
+				{
+					"option": "update R set e=e-2 where e<2",
+					"correct": "True"
+				},
+
+				{
+					"option": "update R set e=e-3 where f>5",
+					"correct": "False"
+				}
+
+			],
+			"feedback":"With each update on attribute e in R(e,f), track if update is cascaded to the attribute c in S and finally to the attribute b in T(a,b). In T(a,b) the b attribute of tuples (1,1), (2,5), (3,5), and (4,3) references the c attribute in S(c,d) of tuples (1,7), (5,1), (5,1), and (3,2) which references the e attribute in R(e,f) of tuples (1,1), (5,6), (5,6), (3,4)."
+		}
+
+	]
+}]

@@ -1,0 +1,33 @@
+[{
+	"title": "Quiz on Multivalued Dependencies-3",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "mcq",
+			"questionText": " Consider relation StudentInfo(sID, name, dorm, major) with functional dependency sID  → name and multivalued dependency sID ->-> dorm. What schema would be produced by the 4NF decomposition algorithm? ",
+			"points":"1",
+			
+			"options": [{
+					"option": "StudentInfo(sID, name, dorm, major)",
+					"correct": "False"
+				},
+
+				{
+					"option": "S1(sID,name), S2(sID,dorm,major)",
+					"correct": "False"
+				},
+
+				{
+					"option": "S1(sID,name,dorm), S2(sID,major)",
+					"correct": "False"
+				},
+
+				{
+					"option": "S1(sID,name), S2(sID,dorm), S3(sID,major)",
+					"correct": "True"
+				}
+
+			]
+		}
+
+	]
+}]

@@ -1,0 +1,32 @@
+[{
+	"title": "Quiz on SQL-7",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "filesubmission",
+			"questionText": " For every situation where student A likes student B, but we have no information about whom B likes (that is, B does not appear as an ID1 in the Likes table), return A and B's names and grades. ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " For every situation where student A likes student B, but student B likes a different student C, return the names and grades of A, B, and C. ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " Find the number of students who are either friends with Cassandra or are friends of friends of Cassandra. Do not count Cassandra, even though technically she is a friend of a friend. ",
+			"points":"5"
+
+		},
+
+		{
+			"questionType": "filesubmission",
+			"questionText": " If two students A and B are friends, and A likes B but not vice-versa, remove the Likes tuple. ",
+			"points":"5"
+			
+		}
+	]
+}]
